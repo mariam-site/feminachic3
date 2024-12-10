@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boutique femme</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header><h1>Fémina Chic</h1></header>
+    <main>
+
+    <nav> 
+        <p class="a">   <a href="index.html">  <img class="icons"   src="accueil.png" alt=""> </a>  </p>
+        <p class="a"> <a href="formulaire.html">  <img class="icons" src="ajouter-au-panier.png" alt=""> </a></p>
+        <p class="a"> <a href="article.html">     <img class="icons" alt="" src="t-shirts.png"></a> </p>
+        <p class="a"> <a href="contact.html"> <img class="icons" src="contact-us.png" alt=""></a> </p>        
+        
+    </nav>
+    
+    <section>
+        <form action="errer.html">
+            <fieldset class="mi">
+                <legend class="ident">Identification</legend>
+                <p>
+                    <label for="full-name">Nom et Prénom :</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Votre nom complet" required>
+                </p>
+                <p>
+                    <label for="phone">N° Tel :</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{8}" placeholder="8 chiffres" title="Entrez un numéro à 8 chiffres">
+                </p>
+                <p>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="exemple@domaine.com" required>
+                </p>
+                <p>
+                    <label for="address">Adresse :</label>
+                    <input type="text" id="address" name="address" placeholder="Votre adresse" required>
+                </p>
+                <p>
+                    <label for="postal-code">Code Postal :</label>
+                    <input type="number" id="postal-code" name="postal-code" placeholder="Ex: 1000" required>
+                </p>
+                <p>
+                    Sexe : 
+                    <label><input type="radio" name="gender" value="femme"> Femme</label>
+                    <label><input type="radio" name="gender" value="homme"> Homme</label>
+                    <label><input type="radio" name="gender" value="autres"> Autres</label>
+                </p>
+            </fieldset>
+        
+            <fieldset class="mi">
+                <legend class="paye">Paiement</legend>
+                <p>
+                    <label for="quantity">Quantité :</label>
+                    <input type="number" id="quantity" name="quantity" placeholder="0" min="1">
+                </p>
+                <p>
+                    <label for="price">Prix :</label>
+                    <input type="number" id="price" name="price" placeholder="0.00" step="0.01">
+                </p>
+                <p>
+                    <label for="reference">Référence :</label>
+                    <input type="text" id="reference" name="reference" placeholder="Code produit">
+                </p>
+                <p>
+                    <label for="total">Total :</label>
+                    <input type="number" id="total" name="total" placeholder="0.00" step="0.01" readonly>
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Valider">
+                <input type="reset" value="Annuler">
+            </p>
+        </form>
+        
+</section></main>
+<footer>
+    <p>© 2024 Fémina Chic | Tous droits réservés</p>
+    <p>
+        <a href="privacy.html">Politique de confidentialité</a> | 
+        <a href="terms.html">Conditions d'utilisation</a>
+    </p>
+</footer>
+</body>
+</html>
