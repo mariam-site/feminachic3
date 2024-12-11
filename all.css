@@ -12,13 +12,13 @@
 .vettement:hover {
     background-color: #df8181;
 }
-.search { 
-    position: fixed;  
-    left: 800px; 
-    top: 1.5%;  
+.search {  
+    position: fixed;
+    left: 20%; 
+    top: 3%;  
     background: rgba(124, 209, 181, 0.9);
     border-radius: 12px;
-    width: 500px; 
+    width: 15%; 
 }
 .search input[type="text"] {
     width: 90%;
