@@ -106,6 +106,9 @@ form input[type="tel"] {
     font-size: 16px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+label :hover{
+    transform: scale(1.1);
+}
 /* article html */
 .vettement {
     background-color: #98d4df;
