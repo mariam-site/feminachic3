@@ -14,7 +14,7 @@
 }
 .search {  
     position: fixed;
-    left: 20%; 
+    float: left;
     top: 3%;  
     background: rgba(124, 209, 181, 0.9);
     border-radius: 12px;
